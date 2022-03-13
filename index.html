@@ -6,11 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>component library</title>
+    <!-- CSS way 1: Style Tag
+
+
+    <style>
+        body {
+            color: red;
+        }
+    </style> -->
+    <!-- third way of doing CSS: external link -->
+    <link href="Style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Pooja Patidar's component library</h1>
-    <P>i am attending neog.camp and i want to make a library which would make all my projects look good and consistent
+    <h1 id="lib-header">Pooja Patidar's component library</h1>
+    <P class="para">i am attending neog.camp and i want to make a library which would make all my projects look good and consistent
     </P>
 
     <hr>
@@ -30,7 +40,7 @@
     <div>This is a fluid container and it will go till the end of the page</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width
+    <div id="para">This is a centered container and it will go till the specified width
 
         <hr>
 
@@ -41,14 +51,14 @@
 
         <hr>
         <h2>@list</h2>
-        
+
         <h3>unordered list</h3>
 
         <ul>
             <li>Item One</li>
             <li>Item Two</li>
             <li>Item Three</li>
-       </ul>
+        </ul>
 
         <h3>unordered inline list</h3>
 
@@ -60,68 +70,68 @@
 
         <h3> reverse ordered list</h3>
 
-        <ol> 
+        <ol>
             <li>milk</li>
             <li>eggs</li>
             <li>break</li>
         </ol>
-        <hr/>
+        <hr />
 
-       <h2>@nav</h2>
+        <h2>@nav</h2>
 
-       <nav>
-           <div>iAmBrand</div>
-           <ul>
-               <li>
-                   <a href="/">home</a>
-               </li>
-               <li>
-                   <a href="/">products</a>
-               </li>
-               <li> 
-                   <a href="/">about</a>
-               </li>
-           </ul>
-       </nav>
-       
-       <hr>
+        <nav>
+            <div>iAmBrand</div>
+            <ul>
+                <li>
+                    <a href="/">home</a>
+                </li>
+                <li>
+                    <a href="/">products</a>
+                </li>
+                <li>
+                    <a href="/">about</a>
+                </li>
+            </ul>
+        </nav>
 
-       <h2>@header</h2>
+        <hr>
 
-       <header>
-           <img src="image/hero.svg" />
-           <h1>heading inside hero</h1>
-       </header>
+        <h2>@header</h2>
 
-<hr/>
- 
-<h2>@section</h2>
-<section>
-    <h3>white section</h3>
-    <p>This will white background</p>
-</section>
-    
-<section>
-    <h3>off white section</h3>
-    <p>This will habe gray background</p>
-</section>
-<hr>
+        <header>
+            <img src=image/hero.svg />
+            <h1>heading inside hero</h1>
+        </header>
 
-<h2>@footer</h2>
+        <hr />
 
-<footer>
-    <div>some small heading inside footer</div>
-    <ul>
-    <li>socialOne</li>
-    <li>socialTwo</li>
-    <li>socialThree</li>
-    </ul> 
-</footer>
-       <!-- <div style"hieght: 30vh;"> -->
+        <h2>@section</h2>
+        <section>
+            <h3>white section</h3>
+            <p>This will white background</p>
+        </section>
 
-       </div>
+        <section>
+            <h3>off white section</h3>
+            <p>This will habe gray background</p>
+        </section>
+        <hr>
+
+        <h2>@footer</h2>
+
+        <footer>
+            <div>some small heading inside footer</div>
+            <ul>
+                <li>socialOne</li>
+                <li>socialTwo</li>
+                <li>socialThree</li>
+            </ul>
+        </footer>
+        <!-- <div style"hieght: 30vh;"> -->
+
+    </div>
 
 
 </body>
-     
+
 </html>
