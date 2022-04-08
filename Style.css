@@ -16,6 +16,12 @@ hr {
     margin: 2rem 0rem;
 }
 
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
+}
+
 /** container **/
 .container {
     padding-left: 1rem;
@@ -49,7 +55,7 @@ hr {
 
 /** lists **/
 
-.non-bullet {
+.list-non-bullet {
     list-style: none;
 }
 
@@ -88,6 +94,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
