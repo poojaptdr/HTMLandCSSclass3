@@ -51,6 +51,12 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+@media(max-width:700px){
+    .link{
+        padding: 0;
+    }
+}
+
 /** look into BEM naming convention for CSS **/
 
 /** lists **/
@@ -111,6 +117,12 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+@media(max-witdh:700px){
+    .hero .hero-img{
+        width:100px;
+    }
 }
 
 /** sections **/
