@@ -51,12 +51,6 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-@media(max-width:700px){
-    .link{
-        padding: 0;
-    }
-}
-
 /** look into BEM naming convention for CSS **/
 
 /** lists **/
