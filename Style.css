@@ -122,8 +122,7 @@ hr {
 /** header **/
 
  .hero {
-    padding-top: 8rem;
-    padding-bottom: 4.5rem;
+    padding: 5rem;
 } 
 
 .hero .hero-img {
