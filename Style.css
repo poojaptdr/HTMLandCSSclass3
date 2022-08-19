@@ -162,6 +162,7 @@ hr {
 
 @media(max-width: 450px){
     .hero .hero-img{
+        min-width: none;
         max-width: 200px;
     }
 }
